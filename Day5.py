@@ -60,3 +60,37 @@ https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&n
 집에간다.
 
 '''
+"""
+1.삼각형의 면적을 계싼하는 알고리즘
+
+삼각형의 면적 = 밑변*높이 / 2
+
+의사코드로 작성
+ 밑변과 높이를 입력
+ area <- base * hight / 2
+ area 출력
+
+플로우차트로 작성
+https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Day5-1.drawio#R7Vhdb5swFP01lrZJrfgOPAZCW02dtqkPW%2FMyGTAfm4kzYwrZr58NJkBJulTLhlbtBfkeX1%2Fb956DDUD38vqawm36jkQIA02JaqCvgKbZus2fAti1gGrZixZJaBZJrAfush9IgopEyyxCxciREYJZth2DIdlsUMhGGKSUVGO3mODxrFuYoAlwF0I8RT9lEUvlvrRFj9%2BgLEm7mVXLaXty2DnLnRQpjEg1gHQf6B4lhLWtvPYQFsnr8tKOuzrSu18YRRt2yoD31%2Bv1TbFmprXzL76%2F%2FVhXdHEhozxAXMoNA98FtgqclVw123WpKBgl3%2FZZ4Ot3U5Zj3lR5k%2B9uK%2FzyOhFEuIwxqcIUUnZZMP78InyqNGPobgtD4VhxN47FGcYewYQ2c%2BgRRHYcinjNZIMeK7RREPMeuWJEGaqPpkLdJ5gzE5EcMbrjLh0tZUl2Y7PqC6x2VUsHxTUkBiWnkn3gPu28ITP%2FjCpYk1yjiLNQmoSylCRkA7Hfoy4l5SZCIqrCrd7nlpCtrMlXxNhOSgqWjIwrhuqMfRbDL01p3Q96VrWM3Bi7gfEB0YxvG9EO2%2FAUDAIJ837Y14dqrC5Wu2ex0aeryPNCShqiJ%2FKnyRcDpAliT%2Fjph1lBEYYsexiv4%2BxF1g5IzQO2CxxPNBwfOOqEBy9Wcxd7Nc2musU%2Fo7r5FaafqDBjToXpE4UFsEBA8ySdOLtaodmmOOWWCliaEw70FT4mn0E1YVAQXDK0pKGseIP2lrGX1VDDf0BOqjW3nOz%2FcjpZTsaJcjLnlJMxkRPfKRQqEgankYX52t2A8lbStBq1KW96xgmvK%2F7UXorMZr8qOnOo7IzMN09k%2FpGy%2FB3mmxPmb2m2Ya8E%2F19P72jyGhaRsMybhPyKz0FbkNtgnOCzMHU2ZnZf7I8vuBpw%2BQV3CVxFfFf6K%2BDYwDGbk7hpi1OZH8YOcA0BLhs3AfIhJlh6zRBTeArEFnF%2B62Xy6PYbx8gKD95%2Bo4UTKMp5qmM8eo%2FoB45rTTlQLvv55eJm%2F1eh6Rv8m9H9nw%3D%3D
+"""
+'''
+base = int(input('base를 입력하세요.:'))
+height = int(input('height를 입력하세요.:'))
+
+area = base * height / 2
+
+print(area)
+'''
+'''
+두 데이터의 대소를 판단하는 알고리즘
+a와b를 입력한다.
+'''
+a = int(input('a:'))
+b = int(input('b:'))
+
+if a>b:
+    print('a>b')
+elif a==b:
+    print('a=b')
+else:
+    print('a<b')
