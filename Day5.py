@@ -1,0 +1,37 @@
+'''
+1. 알고리즘
+일상에서도 많이 사용되고있다.
+2.알고리즘과 프로그램
+알고리즘을 프로그래밍 언어로 기술하면 프로그램이 된다.
+3.프로그램 작성에서의 알고리즘
+프로그램 작성은 기획,설계,프로그래밍,디버그 로 진행한다.
+알고리즘은 설계 단계에서 필요하다.
+4.좋은 알고리즘이란??
+알기쉽다.
+속도가 빠르다.
+효율적이다.(메모리를 적게 사용한다.)
+재이용이 쉽다.
+5.왜 알고리즘을 공부해야하나
+좋은 프로그램을 만들기위해(빠르고,효율적,범용성)
+프로그램의 좋고 나쁨을 판단하기위해
+프로그램 작성 과정 전체를 효율화하기 위해
+
+6.알고리즘 조건
+정확한 결과를 얻을 수 있어야한다.
+(알고리즘은 문제나 과제를 해결하기 위한 절차)
+반드시 종료되어야 한다.
+(중간 처리나 절차가 잘못만들어지면 영원히 끝나지않는다.)
+7.알고리즘의 기본형 3가지
+순서구조 : 처음부터 순서대로 처리하는 절차
+    1.슈퍼마켓에 간다.
+    2.라면을 산다.
+    집으로 돌아온다.
+실행을 원하는 처리를 위에서부터 순서대로 작성한다.
+ 
+선택구조 : 조건식으로 판단해 실행할 절차를 전환하는 구조
+
+반복구조 : 조건을 만족하는 동안 같은처리를 반복하는 절차
+
+https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.png#R7VxRc6o4FP41ebwdIQjhEazd3p27M3emD3f7tBMhKls0Dsaq99dvAkEUYsWKBty%2BdMiBFDjnfCff%2BYwCOJht%2FkjwYvoXDUkMzF64AfARmKYLbf5XGLaZwbakYZJEYWYyCsNL9JtIY09aV1FIlgcXMkpjFi0OjQGdz0nADmw4Sej68LIxjQ%2FvusATUjG8BDiuWn9FIZtmVmQ6hf2ZRJNpfmfDdrMzM5xfLN9kOcUhXe%2BZ4BDAQUIpy45mmwGJhe9yv2Tzno6c3T1YQuaszoR5%2FyVyf32Pnn%2B%2FPbmv343ZwP3zW18%2BG9vmL0xC%2Fv5ySBM2pRM6x%2FGwsPoJXc1DIv5rj4%2BKa35QuuBGgxv%2FJYxtZTDxilFumrJZLM%2BSTcT%2BFtMf%2BnL0unfmcSP%2FczrY5oM5S7Z7k8Twdf9cMS0d5fOy9xMvddRt0rSkqyQgH%2FgqTz%2BcTAj74DpzF1wOCkJnhD8Pn5eQGLPo%2FfA5sEzPye66IoL8QAbxjIDK%2F%2FuO45W8ExgOAPIAQmD4CNAj8AfC4jrA7YGhB%2FweQBYY%2BgD5wLMeKvlQRFsEaD2NGHlZ4NRRa474w8jKm5OEkc3H%2Fq76R06wJFxkvUByuC7AZ%2BSImu4BL5%2FWuENNhUN94GZ%2B5C5zgW%2BlDn0UfuSPJtxtCre21qeGrdupUJmlHs9JI%2FXlIPeuIY7NzJdPAGWp208zlh8g4KH2unk31uZm%2B96rezr6SZKI%2B4skzZd8s2bJhzpLvqMu%2BUhAhx%2FwSiRQwit9H3iphaPK71VSQxdatKHD%2BCI%2F9ZHg1kSCYemEgtt19tM6%2BpP3YZ3mP%2B1bmQ01T%2B86Ayo7GpraHW3ee5G%2FNgfKK8Dp0n8kN27U%2BKp7Co4Tr5fWfihKlIIG2TF%2FKX%2BU8KMJ27muDSDSBxq74sstWd47kJrEjFUXMz11KtwIM9XWYU51htnYC3IRcnWYtYQLXRguOfUnjfgzFq2QUeInRgnZ2YPJWaWg7x7jgjyw6pM8Pyd57jBl1b5ge5yHwKdq4ZzS2Wi1PF00x1EcD2hMk3QeHKOABAG3L1lC38jemRHqW%2F1ew2W2NaqYCb9KbH3MolvREjVmoXGE6t4Ks0iNWVvwmmv2YzgJZC7x5aMhJahGe9a7KRI70zVoQdSlq%2BBlsVGJPL5IcDddjnwoKH779M6%2B9vUFVp3Q0qxuwfoC637cCx2daIBqIalDkucOF22RPKGpXlk7JXmWvapfVID3%2BaFv2dF923ro63a1de%2BF%2FtqiZ14DTlZ%2F6zrdhW0eZtWOIt%2Bou4D9Cli%2FFMCzEsipSx9MrfShqvT%2BLxXA%2BuFyr4J3B%2BpVAKFqE8m9K4DlpVu%2FAgjRvZfYqy%2FcdTeqXGvhLgEZuvWA7CUJ3u5dthAXLD8oGE7pPlZp9%2FcJQlG6nh9kT9BsVVFLNV3UKB2zRj91U43S6oyaowPeF6%2FTl228rdLnT9Gq5RQvxFn57RaxCDYYwjOoVlHuD4p9UfuPlPsYj0js4%2BBtkj52vpCHZIxX6b6LMZ2zJzyLYjHjmcTvhEUBlidyDBtyXJ1O5qEnvuUjfBTj5TKqkobi4gbz0KqtDmrdGmyp1UFO3Fwrl1fQPq3jdCejdr5QC6t7Y6S%2BXuiHUqfxHICGH1XvThHBXbetb%2Bf%2BZxScq1aLcxqzXbUwvqpFCsO6%2B0suJqWXVQv1NhDfFuqrKAq2RL7vph%2BxVQicl%2FWKSFwgaoGXl5kGKF390Leigmj%2FFMNqSsG7Lgc5g0a2qjq0tf%2BtTUysS7%2BoUa%2FP7NfcFnNu%2F1sRyJ3z%2Bt%2FS9dfpf53PtGitwZsYlDP1s2nfKuw2CDfbrgk3W28%2FWpX5z%2BkD6rH%2BSq5n%2Fs9%2FNsE8zMg8zWebifjhiIdxTNfBFCfsIeZJ%2FU8czSJ2hBVcmCsNLPcQldQ07cqxrRDwOxKPhDIOATrnxm8GaoiQlSO0W4dORSj%2F5LP5CKk3bNZn183Jo%2B3m0uXQWdq3rtgqHVvz1pX2FUFbu2riqOUu35RbQz1btKhaoBNigsZK6NgBIqNxMyFp3dcvHfNY0ROQ8ICPlFtza6uFXYqGflXRUW3Bq2ydbh9taEPwtAs6jkqdG6T8IVt7esBTBE%2FGJ6TBapa%2B%2BilMjbJy%2BGPUSZDp32XvVIW3lMD58vdYRNNliFsIImAIklfRCOI4WizJnZU%2F%2B4o0jg%2BLH9LL1Jvi1wjh8D8%3D
+
+'''
