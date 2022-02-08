@@ -134,7 +134,7 @@ def test():
     print('test()함수의 마지막줄입니다.')
 print(test())
 """
-
+"""
 print('프로그램 실행')
 while True:
     try:
@@ -147,3 +147,72 @@ while True:
         print("finally")
     print('while')
 print('프로그램 종료')
+
+"""
+"""#예외만들기
+class MyError(Exception): #상속
+    pass
+def say_nick(nick):
+    if nick == '바보':
+        raise MyError()
+    print(nick)
+
+say_nick('천사')
+say_nick('바보')
+"""
+
+#291
+f = open("C:\\Users\\dlwod\\OneDrive\\문서\\GitHub\\ai\\매수종목1.txt", mode="wt", encoding="utf-8")
+f.write("005930\n")
+f.write("005380\n")
+f.write("035420")
+f.close()
+
+
+"""
+#292
+f = open("C:\\Users\\dlwod\\OneDrive\\문서\\GitHub\\ai\\매수종목2.txt", mode="wt", encoding="utf-8")
+f.write("005930 삼성전자\n")
+f.write("005380 현대차\n")
+f.write("035420 NAVER")
+f.close()"""
+"""
+#293
+import csv
+
+f = open("C:\\Users\\dlwod\\OneDrive\\문서\\GitHub\\ai\\매수종목.csv", mode="wt", encoding="cp949", newline='')
+writer = csv.writer(f)
+writer.writerow(["종목명", "종목코드", "PER"])
+writer.writerow(["삼성전자", "005930", 15.59])
+writer.writerow(["NAVER", "035420", 55.82])
+f.close()"""
+
+"""
+#294
+f = open("C:\\Users\\dlwod\\OneDrive\\문서\\GitHub\\ai\\매수종목1.txt", encoding="utf-8")
+lines = f.readlines()   # python list
+
+codes = []
+for line in lines:
+    code = line.strip()  #'\n'
+    codes.append(code)
+
+print(codes)
+
+f.close()
+"""
+"""
+#295
+f = open("C:\\Users\\dlwod\\OneDrive\\문서\\GitHub\\ai\\매수종목2.txt", encoding="utf-8")
+lines = f.readlines()
+
+data = {}
+for line in lines:
+    line = line.strip()     # '\n' 제거
+    k, v = line.split()
+    #print(k, v)
+    data[k] = v
+
+print(data)
+f.close()
+"""
