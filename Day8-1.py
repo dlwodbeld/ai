@@ -247,7 +247,7 @@ print(a.div())
 """
 
 #생성자 constructor 객체가 생성될 떄 자동으로 호출되는 메서드를 의미한다.
-
+"""
 
 class FourCal:
     def setdata(self,first,second):
@@ -265,6 +265,7 @@ class FourCal:
     def div(self):
         result = self.first / self.second
         return result
+"""
 """
 
 a = FourCal(4,2)
@@ -298,7 +299,7 @@ a = FourCal(4,2)
 print(a.div())
 
 """
-
+"""
 class SafeFourCal(FourCal):
     def div(self):
         if self.second == 0:
@@ -324,3 +325,10 @@ b = Family()
 
 print(a.lastname)
 print(b.lastname)
+
+Family.lastname = "박"
+
+print(a.lastname)
+print(b.lastname)
+"""
+ 
